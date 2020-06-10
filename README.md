@@ -47,7 +47,7 @@ You can install necessary packages to run these codes by running the following:
 ## Note
 - Make sure install the required packages
 
-- To running ```HelloFresh.py``` use the run locally command
+- To run ```HelloFresh.py``` use the run locally command
 
 
 - - - -
@@ -86,8 +86,8 @@ python HelloFresh.py --inputPath input/recipes.json --outputPath output/ --filte
 * Also, the Bad records from source can be logged for the further refinement of the process flow.
 
 * CPU and memory level logs also can be captured and logged.
-- then Cloud watch can be used along with SNS Alerting.
-- SNS can further be used to handle based on the scenarios 
+-- then Cloud watch can be used along with SNS Alerting.
+** SNS can further be used to handle based on the scenarios 
 * using email notification or Lamda function for any imediate actions 
 
 
